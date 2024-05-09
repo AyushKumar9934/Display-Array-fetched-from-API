@@ -1,0 +1,79 @@
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the page container */
+.page {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Apply styles to the submit button */
+.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Apply styles to the tables */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Apply styles to table rows */
+.tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Apply styles to table cells */
+.td {
+    padding: 8px;
+}
+
+/* Apply styles to table headings */
+.th {
+    background-color: #f2f2f2;
+    padding: 8px;
+}
+
+/* Apply styles to item containers */
+.item {
+    margin-bottom: 20px;
+}
+
+/* Apply styles to images */
+img {
+    position:relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Apply styles to tooltips */
+.item1,.item2,.item3{
+    margin-bottom: 30px;
+
+}
+  .api2{
+    text-align: center;
+    text-decoration: #007bff;
+  }
+.tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 9999;
+}
